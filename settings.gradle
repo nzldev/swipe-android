@@ -1,0 +1,2 @@
+include ':app', ':swipe-android'
+rootProject.name='SwipeTest'
