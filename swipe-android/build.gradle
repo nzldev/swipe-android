@@ -29,8 +29,8 @@ publishing {
             name = "Github"
             url = uri("https://maven.pkg.github.com/nzldev/swipe-android")
             credentials {
-                username = System.getProperty("USERNAME")
-                password = System.getProperty("PASSWORD")
+                username = "nzldev"
+                password = "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"
             }
         }
     }
