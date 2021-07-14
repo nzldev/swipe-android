@@ -17,8 +17,8 @@ def getArtificatId = { ->
 publishing {
     publications {
         bar(MavenPublication) {
-            groupId 'net.devsmine'
-//            artifactId getArtificatId()
+            groupId 'net.devsmine.swipeDroid'
+            artifactId getArtificatId()
             version getVersionName()
             artifact("$buildDir/outputs/aar/${getArtificatId()}-release.aar")
         }
@@ -26,11 +26,11 @@ publishing {
 
     repositories {
         maven {
-            name = "Github"
+            name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/nzldev/swipe-android")
             credentials {
-                username = "nzldev"
-                password = "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"
+                username = githubProperties['gpr.usr'] ?: System.getProperty("USERNAME")
+                password = githubProperties['gpr.key'] ?: System.getProperty("PASSWORD")
             }
         }
     }
