@@ -26,11 +26,11 @@ publishing {
 
     repositories {
         maven {
-            name = "GitHubPackages"
+            name = "Github"
             url = uri("https://maven.pkg.github.com/nzldev/swipe-android")
             credentials {
-                username = githubProperties['gpr.usr'] ?: System.getProperty("USERNAME")
-                password = githubProperties['gpr.key'] ?: System.getProperty("PASSWORD")
+                username = System.getProperty("USERNAME")
+                password = System.getProperty("PASSWORD")
             }
         }
     }
