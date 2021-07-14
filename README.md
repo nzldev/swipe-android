@@ -1,8 +1,8 @@
 # Liquid Swipe
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Cuberto/flashy-tabbar-android/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/nzldev/swipe-android/master/LICENSE)
 
-![Animation](https://raw.githubusercontent.com/nzldev/swipe-android/master/Screenshots/animation.gif)
+//![Animation](https://raw.githubusercontent.com/nzldev/swipe-android/master/Screenshots/animation.gif)
 
 ## Requirements
 
