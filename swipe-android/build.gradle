@@ -18,7 +18,7 @@ publishing {
     publications {
         bar(MavenPublication) {
             groupId 'net.devsmine'
-            artifactId getArtificatId()
+//            artifactId getArtificatId()
             version getVersionName()
             artifact("$buildDir/outputs/aar/${getArtificatId()}-release.aar")
         }
